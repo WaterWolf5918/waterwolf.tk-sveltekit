@@ -1,31 +1,19 @@
-<script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+<script lang="ts">
+
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>WaterWolf.tk - Home</title>
+	<meta name="description" content="WaterWolfs Homepage" />
+    <meta content="WaterWolf.tk Homepage" property="og:title" />
+    <meta content="A basic website for programming projects and other random things" property="og:description" />
+    <meta content="https://waterwolf.tk" property="og:url" />
+    <!-- <meta content="https://embed.com/embedimage.png" property="og:image" /> -->
+    <meta content="#00ffbb" data-react-helmet="true" name="theme-color" />
 </svelte:head>
 
 <section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
+	<h1>Hi i'm WaterWolf a programming hobbyist</h1>
 </section>
 
 <style>

@@ -1,5 +1,5 @@
 <script>
-	import Header from './Header.svelte';
+	import Header from '../components/Header.svelte';
 	import './styles.css';
 </script>
 
@@ -11,7 +11,7 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>Powered by <a href="https://vercel.com">vercel</a> and <a href="https://kit.svelte.dev/">SvelteKit</a></p>
 	</footer>
 </div>
 
