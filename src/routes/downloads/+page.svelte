@@ -9,7 +9,12 @@
 		<ul>
 			<li>
 				<div id="download-object">
-					<p><a href="">WatchRPC v2</a></p>
+					<p><a href="/">WatchRPC v2</a></p>
+				</div>
+			</li>
+			<li>
+				<div id="download-object">
+					<p><a href="./downloads/KillThatAD">Kill That AD</a></p>
 				</div>
 			</li>
 		</ul>
@@ -32,10 +37,10 @@
 	li {
 		position: relative;
 		height: 100%;
-		padding-left: 10px;
-		padding-right: 10px;
+		padding-left: 5px;
+		padding-right: 5px;
 		width: max-content;
-		border: 1px solid rgb(255,255,255);
+		border: 1px solid gray;
 	}
 
 	section {
